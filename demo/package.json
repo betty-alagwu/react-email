@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "node scripts/prepare.js && email dev",
-    "export": "email export"
+    "export": "email export",
+    "format:check": "prettier --check \"**/*.{js,ts,tsx,json}\"",
+    "format": "prettier --write \"**/*.{js,ts,tsx,json}\""
   },
   "dependencies": {
     "@react-email/components": "0.0.4",
     "react-email": "1.8.0-canary.0"
   },
   "devDependencies": {
+    "prettier": "^2.8.6",
     "symlink-dir": "^5.1.1"
   }
 }
