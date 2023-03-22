@@ -11,5 +11,8 @@
   "dependencies": {
     "@react-email/components": "0.0.4",
     "react-email": "1.8.0-canary.2"
+  },
+  "devDependencies": {
+    "symlink-dir": "^5.1.1"
   }
 }
